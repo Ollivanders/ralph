@@ -1,0 +1,82 @@
+$color-primary: #a6001c;
+$color-secondary: #cf3839;
+$color-tertiary: #f95e57;
+$color-quarternary: #5c3333;
+$color-quinary: #7d5c5c;
+$color-senary: #977d7d;
+$color-septenary: #c7b0b0;
+$color-text: #e9e9e9;
+$color-background: #ffffff;
+
+body {
+  @media screen and (max-width: 768px) {
+    font-size: 14px !important;
+  }
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $color-background !important; 
+  color: $color-text;
+  // font-family: "Montserrat", sans-serif;
+  margin: 0px auto;
+  // overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.content {
+  max-width: 1000px;
+}
+
+a {
+  color: $color-secondary;
+}
+
+a:hover {
+  color: $color-tertiary;
+  text-decoration: none;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+}
+
+a.active {
+  color: $color-primary;
+}
+
+::selection {
+  background-color: $color-septenary;
+  color: $color-text;
+}
+
+.color-secondary {
+  color: $color-secondary;
+}
+
+.color-primary {
+  color: $color-primary;
+}
+
+.color-tertiary {
+  color: $color-tertiary;
+}
+
+.color-quarternary {
+  color: $color-quarternary;
+}
+
+.color-quinary {
+  color: $color-quinary;
+}
+
+.color-senary {
+  color: $color-senary;
+}
+
+.color-septenary {
+  color: $color-septenary;
+}
