@@ -16,7 +16,7 @@
     "react-ga": "^3.3.0",
     "react-scripts": "4.0.3",
     "react-tilt": "^0.1.4",
-    "sass": "^1.26.5",
+    "sass": "^1.35.2",
     "web-vitals": "^1.1.1"
   },
   "scripts": {
