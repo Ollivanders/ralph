@@ -1,7 +1,6 @@
+## Inspiration and code structures
 
-
-
-
+https://github.com/mldangelo/personal-site
 
 # RemoteAndLocalProfileHosting
 

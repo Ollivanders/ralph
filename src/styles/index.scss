@@ -9,7 +9,7 @@ $color-text: #e9e9e9;
 $color-background: #ffffff;
 
 body {
-  @media screen and (max-width: 768px) {
+  @include breakpoint(small) {
     font-size: 14px !important;
   }
   font-size: 16px;
@@ -18,7 +18,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: $color-background !important; 
+  background-color: $color-background !important;
   color: $color-text;
   // font-family: "Montserrat", sans-serif;
   margin: 0px auto;
