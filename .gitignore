@@ -26,3 +26,5 @@ yarn-error.log*
 .cache
 dist
 src/stories
+.parcel-cache/
+*.*cache*
