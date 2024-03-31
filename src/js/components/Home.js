@@ -3,7 +3,7 @@ import { Row, Col } from 'react-bootstrap';
 import '../../styles/Home.scss'
 import logo from '../../assets/logo.png'
 import cvImage from '../../assets/cv.png'
-// import cv from '../../assets/OBaxandallResume.pdf'
+import cv from '../../assets/OBaxandallResume.pdf'
 
 
 class Home extends Component {
@@ -15,20 +15,18 @@ class Home extends Component {
                         <h1 className='title'>Oli Baxandall</h1>
                         <Row>
                             <Col lg={8} md={8} sm={8}>
-                                <h2 className="sub-title"> Full Stack Developer</h2>
+                                <h2 className="sub-title"> Cloud Engineer</h2>
                             </Col>
                             <Col lg={4} md={4} sm={4}>
                                 <img src={logo} className="logo" alt="logo" />
                             </Col>
                         </Row>
                         <p className='description'>
-                            Experienced in full stack development, continuous integration of software projects and finding things to do.
-                            Working in numerous roles of this nature has promoted a deep love of coffee, a fascination for anything to do with technology and a DIY attitude.
-                            An active individual maintaining balance with an assortment of hobbies, including work as a professional magician, 3D-printing of designed CAD projects and rock climbing.
+                            Accomplished software engineer, supporting cloud, full-stack and DevOps experience. Previously with an academic background and focus on research, I now specialise in enabling enterprise Cloud solutions. With prolific experience across start ups and established corporations, I have fostered a committed DIY approach and a fair love of coffee.
                         </p>
                         <Row>
                             <Col lg={12} md={4} sm={4}>
-                                <a className='cv' target='_blank'>
+                                <a href={cv} className='cv' target='_blank'>
                                     Resume
                                 </a>
                             </Col>
@@ -42,7 +40,7 @@ class Home extends Component {
                         </Row>
                     </Col>
                     <Col lg={6} md={12} sm={12}>
-                        <a target='_blank'>
+                        <a href={cv} target='_blank'>
                             <img src={cvImage} className="cvImage" alt="resume" />
                         </a>
                     </Col>
