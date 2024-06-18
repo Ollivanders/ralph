@@ -15,7 +15,7 @@ class Home extends Component {
                         <h1 className='title'>Oli Baxandall</h1>
                         <Row>
                             <Col lg={8} md={8} sm={8}>
-                                <h2 className="sub-title"> Cloud Engineer</h2>
+                                <h2 className="sub-title">Lead Cloud Engineer</h2>
                             </Col>
                             <Col lg={4} md={4} sm={4}>
                                 <img src={logo} className="logo" alt="logo" />
