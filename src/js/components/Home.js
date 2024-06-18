@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Row, Col } from 'react-bootstrap';
 import '../../styles/Home.scss'
 import logo from '../../assets/logo.png'
-import cvImage from '../../assets/cv.png'
+import cvImage from '../../assets/cv.jpg'
 import cv from '../../assets/OBaxandallResume.pdf'
 
 
@@ -29,6 +29,7 @@ class Home extends Component {
                                 <a href={cv} className='cv' target='_blank'>
                                     Resume
                                 </a>
+                                <p></p>
                             </Col>
                             <Col lg={12} md={8} sm={8}>
                                 <div className="social-container">
